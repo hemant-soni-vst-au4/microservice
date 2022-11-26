@@ -20,7 +20,7 @@ app.post("/posts/:id/comments", (req, res) => {
   comments.push({ id: commentId, content });
   commentsByPostId[req.params.id] = comments;
 
-  res.status(201).send(posts[id]);
+  res.status(201).send(commentsByPostId[req.params.id]);
 });
 
 app.listen(5000, () => {
