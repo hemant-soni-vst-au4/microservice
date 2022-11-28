@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import PostCreate from './PostCreate';
 
 function App() {
   return (
-    <div>Bolg App</div>
+    <div>
+        <h1>Create Post</h1>
+        <PostCreate />
+    </div>
   )
 }
 
