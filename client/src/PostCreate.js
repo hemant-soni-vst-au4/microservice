@@ -14,7 +14,7 @@ function PostCreate() {
     <div>
         <form onSubmit={onSubmit}>
             <div className="form-group">
-                <lable>Title</lable>
+                <label>Title</label>
                 <input 
                 value={title}
                 onChange={e => setTitle(e.target.value)}

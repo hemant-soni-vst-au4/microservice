@@ -21,7 +21,7 @@ app.post("/posts", (req, res) => {
     id,
     title,
   };
-  res.status(201).send(post[id]);
+  res.status(201).send(posts[id]);
 });
 
 app.listen(4000, () => {
