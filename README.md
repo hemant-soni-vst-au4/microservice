@@ -47,6 +47,10 @@ kubectl apply -f posts.yml => to run kubernet config file
 
 kubectl get pods ->> to check pods created
 
-yes
+kubectl exec -it [pod_name] [cmd] => running command
+kubectl logs [pod_name]
+kubectl delete pod [pod_name]
+kubectl apply -f [config file name] => tell kubernetes to process the config file
+kubectl describe pod [pod_name] => provide info about running pod
 
 
