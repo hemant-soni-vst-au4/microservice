@@ -47,4 +47,6 @@ kubectl apply -f posts.yml => to run kubernet config file
 
 kubectl get pods ->> to check pods created
 
+yes
+
 
