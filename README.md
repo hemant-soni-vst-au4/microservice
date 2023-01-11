@@ -54,3 +54,4 @@ kubectl apply -f [config file name] => tell kubernetes to process the config fil
 kubectl describe pod [pod_name] => provide info about running pod
 
 
+
